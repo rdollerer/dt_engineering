@@ -3,7 +3,7 @@ import os
 import requests
 from pymongo import MongoClient
 
-KEY = 'f05952544078999252619507fc14b64f'
+KEY = ''
 CITY = "COURBEVOIE"
 
 r = requests.get(
