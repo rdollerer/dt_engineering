@@ -1,0 +1,43 @@
+Exercise 1
+In this exercise, we are going to use a new type of class called abstract classes.
+Using the keyword abstract, create a class named Product which will have 2 private attributes name_ and type_. From this class, create 2 classes Juice and Fruit. The particularity of Juice is that it will have an additional attribute volume_.The type of the product will be the name of the associated class.
+
+
+In Product, override the toString method (in python it is __str__) and return a character string like this "<type>: <name>". For Juice objects add the volume in parentheses.
+
+
+Now you need to create 2 functions == and !=. For Fruit, we will simply compare the name of the 2 objects and for Juice, we will compare the name and the volume.
+
+
+Don't forget to test your classes.
+We will now move on to the VendingMachine class.
+Create a class VendingMachine with the only private instance variable capacity_. Then instantiate 2 private variables quantity_ and products_. They will respectively represent the occupied storage spaces and the list of products in the dispenser.
+
+
+Add an add method that will take a product as a parameter. So you will need to update quantity_ and products_. To avoid overloading the add method, create an add_update_quantity method: this method, depending on the product type, will add 1 if it is a Fruit and 2 if it is a Juice. Add success or failure messages.
+
+
+Override the toString method of VendingMachine. You will need to return a string similar to this:
+This vending machine has n spaces left.It contains: <product name 1>; ...; <product name n>
+
+
+As you will have understood, you must create a remove method which will remove a product if it is in the products_ list. I let you imagine how to do this step.
+
+Exercice 2
+A scientist experiments with several reactions every day and records the temperatures of his solution per hour for 2 weeks. Some of these temperatures were badly recorded, they will have to be transformed. Our goal will be to find the day with the most measurements and calculate the average.
+Create an instance of the Random class with a random seed equivalent to 42. Then, instantiate a Sequence of 336 integer random numbers between -30 and 30.
+
+
+Construct a Sequence of Sequence of integers. Each element of your Sequence will represent the measurements made per day. Make a function to create this new variable.
+
+
+Build a function to display your new variable.
+
+
+Make a function that turns negatives into positives. Then apply this function to your measures_per_day variable.
+
+
+Make a function that filters measurements by day. We only want to keep those between 15 and 25.
+
+
+Make a function that returns the Sequence with the most value. Then, calculate the average of it (the result must be a decimal number)
