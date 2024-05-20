@@ -29,12 +29,6 @@ class Question(BaseModel):
     responseC: Optional[Any] = None
     responseD: Optional[Any] = None
 
-# I use this object to create the request of get_questions
-"""class GetQuestion(BaseModel):
-    subjects: List[str]
-    use: str
-    nr_questions: int"""
-
 # This function is used to authenticate the users for the get_questions
 def authenticate(credentials: HTTPBasicCredentials = Depends(security)):
     correct_password = users.get(credentials.username)
@@ -57,7 +51,6 @@ def alive():
 
 
 @api.get('/questions', name = 'Get Questions', response_model = List[Question])
-#def get_questions(filter: GetQuestion, username: str = Depends(authenticate)):
 def get_questions(
     use: str = Query(...),
     subjects: List[str] = Query(...),
