@@ -6,3 +6,10 @@ Application de_bootcamp
 Key: 4fy85pn2xe8vgjr84bvzjtnmh
 Secret: kPhk9JPG99
 Status: active
+
+// to connect via VCode
+mongoDB mongodb+srv://DataEngineering:51AsHmraN8IhFTeW@flightproject.qiecgcq.mongodb.net/
+mongodb+srv://DataEngineering:<password>@flightproject.qiecgcq.mongodb.net/
+
+// to connect via terminal 
+mongosh "mongodb+srv://flightproject.qiecgcq.mongodb.net/" --apiVersion 1 --username DataEngineering --password 51AsHmraN8IhFTeW
