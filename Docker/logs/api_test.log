@@ -1,0 +1,77 @@
+
+============================
+    Content test
+============================
+expected result = > 0
+actual result = 0.5994
+==> SUCCESS
+
+============================
+    Content test
+============================
+expected result = > 0
+actual result = 0.5994
+==> SUCCESS
+
+============================
+    Content test
+============================
+expected result = < 0
+actual result = -0.3612
+==> SUCCESS
+
+============================
+    Content test
+============================
+expected result = < 0
+actual result = -0.3612
+==> SUCCESS
+
+============================
+    Authorization test
+============================
+expected result = 200
+actual result = 200
+==> SUCCESS
+
+============================
+    Authorization test
+============================
+expected result = 200
+actual result = 200
+==> SUCCESS
+
+============================
+    Authorization test
+============================
+expected result = 200
+actual result = 200
+==> SUCCESS
+
+============================
+    Authorization test
+============================
+expected result = 403
+actual result = 403
+==> SUCCESS
+
+============================
+    Authentication test
+============================
+expected result = 200
+actual result = 200
+==> SUCCESS
+
+============================
+    Authentication test
+============================
+expected result = 200
+actual result = 200
+==> SUCCESS
+
+============================
+    Authentication test
+============================
+expected result = 403
+actual result = 403
+==> SUCCESS
